@@ -2,31 +2,12 @@
 
 header nav {
     margin-top: 12px;
+    margin-bottom: 64px;
 }
 
 
 /*sobre mim*/
 
-main #conteudo-sobre {
-    margin-top: 128px;
-    margin-left: 384px;
-    margin-bottom: 128px;
-    display: flex;
-    align-items: center;
-}
-
-main img {
-    width: 256px;
-    border-radius: 30%;
-}
-
-main section {
-    margin-left: 128px;
-}
-
-main section p {
-    margin-top: 16px;
-}
 
 /*experiencia*/
 
@@ -59,7 +40,7 @@ main #conteudo-tecnologia img {
 /*contato*/
 
 main #conteudo-contato {
-    margin-top: 128px;
+    margin-top: 164pxpx;
     margin-bottom: 128px;
 }
 main #conteudo-contato h2 {
@@ -67,6 +48,10 @@ main #conteudo-contato h2 {
     margin-bottom: 64px;
 }
 
+main #conteudo-contato img {
+    width: 128px;
+    border-radius: 30%;
+}
 
 main #conteudo-contato #whatsapp button {
     cursor: pointer;
@@ -74,8 +59,8 @@ main #conteudo-contato #whatsapp button {
     background-color: white;
 }
 
-main #conteudo-contato #whatsapp button a:hover {
-    border: 2px solid;
+main #conteudo-contato #whatsapp button a {
+    border: 2px 
 }
 
 footer {

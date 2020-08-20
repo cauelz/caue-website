@@ -1,0 +1,115 @@
+
+
+header nav {
+    margin-top: 12px;
+}
+
+
+/*sobre mim*/
+
+main #conteudo-sobre {
+    margin-top: 128px;
+    margin-left: 384px;
+    margin-bottom: 128px;
+    display: flex;
+    align-items: center;
+}
+
+main img {
+    width: 256px;
+    border-radius: 30%;
+}
+
+main section {
+    margin-left: 128px;
+}
+
+main section p {
+    margin-top: 16px;
+}
+
+/*experiencia*/
+
+main #conteudo-experiencia {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+main #conteudo-experiencia h2 {
+    margin-bottom: 64px;
+}
+
+/*tecnologias*/
+main #conteudo-tecnologia {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+main #conteudo-tecnologia h2 {
+    margin-bottom: 64px;
+}
+
+main #conteudo-tecnologia img {
+    margin-left: 116px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+/*contato*/
+
+main #conteudo-contato {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+main #conteudo-contato h2 {
+
+    margin-bottom: 64px;
+}
+
+
+main #conteudo-contato #whatsapp button {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+main #conteudo-contato #whatsapp button a:hover {
+    border: 2px solid;
+}
+
+footer {
+
+    background-color: #212529;
+    color: white;
+}
+
+/*Parallax*/
+
+#img-div1 {
+    /* The image used */
+    background-image: url("/img/div1.jpg");
+  
+    /* Set a specific height */
+    height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#img-div2 {
+    /* The image used */
+    background-image: url("/img/div2.jpg");
+  
+    /* Set a specific height */
+    height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
